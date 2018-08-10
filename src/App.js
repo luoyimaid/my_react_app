@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 // 自定义组件：组件名称必须以大写字母开头
+// 循环渲染
 function Welcome(props) {
   return <h1>hello, {props.name}!</h1>
 }

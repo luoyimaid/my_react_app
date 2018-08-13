@@ -7,6 +7,7 @@ import Toggle from './toggle';
 // import Greeting from './greeting';
 import LoginControl from './greeting'
 import SubmitName from './submit'
+import Caculator from './caculator'
 
 const element = (
     <div>
@@ -14,6 +15,7 @@ const element = (
         <Toggle />
         <LoginControl />
         <SubmitName />
+        <Caculator />
     </div>
 )
 ReactDOM.render(element, document.getElementById('root'));

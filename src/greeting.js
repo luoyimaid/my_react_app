@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import PropTypes from 'prop-types'; // ES6
+
 // react运算符操作
 function UserGreeting(props) {
     return <p> welcome back! </p>
@@ -10,11 +12,11 @@ function GuestGreeting(props) {
 }
 
 function LoginButton(props) {
-    return <button onClick = {props.onClick}> login </button>
+    return <button onClick = {props.onClick}> login</button>
 }
-
+// {this.props.name}
 function LogoutButton(props) {
-    return <button onClick = {props.onclick}> logout </button>
+    return <button onClick = {props.onclick}> logout  </button>
 }
 
 function Greeting(props) {
@@ -59,5 +61,7 @@ class LoginControl extends Component {
         );
     }
 }
-
+// LoginControl.propTypes = {
+//     name: PropTypes.string
+// }
 export default LoginControl;

@@ -8,14 +8,18 @@ import Toggle from './toggle';
 import LoginControl from './greeting'
 import SubmitName from './submit'
 import Caculator from './caculator'
+import Dialog from './dialog'
+import HelloMessage from './webComponents'
 
 const element = (
     <div>
         <App />
+        <HelloMessage />
         <Toggle />
         <LoginControl />
         <SubmitName />
         <Caculator />
+        <Dialog />
     </div>
 )
 ReactDOM.render(element, document.getElementById('root'));

@@ -3,10 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "dom-to-image": "^2.6.0",
+    "html2canvas": "^1.0.0-alpha.12",
+    "mui": "0.0.1",
+    "mui-react": "0.0.10",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "vue-h5-plus": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

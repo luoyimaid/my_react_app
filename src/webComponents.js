@@ -28,6 +28,6 @@ const proto = Object.create(HTMLElement.prototype, {
         }
     }
 });
-document.registerElement('x-search',{prototype: proto});
+// document.registerElement('x-search',{prototype: proto});
 
 export default helloMessage;

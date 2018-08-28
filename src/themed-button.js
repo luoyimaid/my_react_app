@@ -9,7 +9,7 @@ function ThemedButton(props) {
                 theme => (
                     <button
                         {...props}
-                        style={{ backgroundColor: theme.background, width: 300, height:300 }}
+                        style={{ backgroundColor: theme.background, width: 100, height:100 }}
                     />
                 )
             }
